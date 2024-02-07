@@ -1,8 +1,8 @@
 import { fetchListings } from "../lib/fetchListings";
 
 async function Listings() {
-  const listings = await fetchListings();
-  console.log(listings, "printing to console");
+  // const listings = await fetchListings();
+  // console.log(listings, "printing to console");
   return (
     <div>
       <h1>Listings</h1>
