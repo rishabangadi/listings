@@ -35,7 +35,7 @@ function Listings() {
   return (
     <div className="bg-white h-screen">
       <Nav />
-      <div className="max-w-screen-2xl mx-auto grid grid-cols-[400px,minmax(400px,1fr)]">
+      <div className="flex flex-col items-center gap-8 md:max-w-screen-2xl md:mx-auto md:grid md:items-start md:grid-cols-[400px,minmax(400px,1fr)]">
         <Sidebar getData={getData} />
         {status == "Loading" && (
           <div className="h-[calc(100vh-100px)] grid grid-cols-1 place-items-center">
